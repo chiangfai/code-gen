@@ -1,0 +1,10 @@
+dependencies{
+    implementation (
+            'org.springframework.boot:spring-boot-starter-logging',
+            'org.springframework:spring-core',
+            'org.freemarker:freemarker',
+            'org.apache.velocity:velocity-engine-core:2.1',
+            libs['mybatis-plus-generator']
+    )
+    runtimeOnly 'mysql:mysql-connector-java'
+}
